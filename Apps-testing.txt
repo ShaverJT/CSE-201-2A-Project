@@ -13,21 +13,21 @@ Link: https://www.facebook.com/
 Name: Snapchat
 Devs: Evan Spiegel, Reggie Brown, Bobby Murphy, Daniel Smith
 and David Kravitz
-Platforms:
+Platforms: iOS, Android
 Versions: 7.1.0
 Price: $0
-Review scores:
+Review scores: 3 stars
 Forum: ?
 Link: https://www.snapchat.com/
 
 
 Name: Words With Friends
 Devs: Zynga
-Platforms: Android, iOS (iPad, iPhone, iPod Touch), Facebook, 
-Kindle Fire, Nook Tablet, Windows Phone
+Platforms: Android, iOS, Facebook, Kindle Fire, Nook Tablet, 
+Windows Phone
 Versions: 7.0
 Price: $0
-Review scores:
+Review scores: 4 stars on amazon
 Forum: ?
 Link: https://zynga.com/games/words-friends
 
