@@ -1,0 +1,31 @@
+Data on three apps:
+
+Name: Facebook
+Devs:
+Platforms:
+Versions:
+Price: $0
+Review scores:
+Forum: ?
+Link: https://www.facebook.com/
+
+Name: Snapchat
+Devs:
+Platforms:
+Versions:
+Price: $0
+Review scores:
+Forum: ?
+Link: https://www.snapchat.com/
+
+
+Name: WordsWithFriends
+Devs:
+Platforms:
+Versions:
+Price: $0
+Review scores:
+Forum: ?
+Link: https://zynga.com/games/words-friends
+
+
