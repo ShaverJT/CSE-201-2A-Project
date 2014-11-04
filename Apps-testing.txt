@@ -3,10 +3,10 @@ Data on three apps:
 Name: Facebook
 Devs: Mark Zuckerberg, Eduardo Saverin, Andrew McCollum,
 Dustin Moskovitz and Chris Hughes
-Platforms:
+Platforms: Everything
 Versions: 17.0
 Price: $0
-Review scores:
+Review scores: 3 stars on app store
 Forum: ?
 Link: https://www.facebook.com/
 
@@ -16,7 +16,7 @@ and David Kravitz
 Platforms: iOS, Android
 Versions: 7.1.0
 Price: $0
-Review scores: 3 stars
+Review scores: 3.5 stars on app store
 Forum: ?
 Link: https://www.snapchat.com/
 
@@ -25,9 +25,9 @@ Name: Words With Friends
 Devs: Zynga
 Platforms: Android, iOS, Facebook, Kindle Fire, Nook Tablet, 
 Windows Phone
-Versions: 7.0
+Versions: 2.2
 Price: $0
-Review scores: 4 stars on amazon
+Review scores: 4.5 stars on app store
 Forum: ?
 Link: https://zynga.com/games/words-friends
 
