@@ -1,28 +1,31 @@
 Data on three apps:
 
 Name: Facebook
-Devs:
+Devs: Mark Zuckerberg, Eduardo Saverin, Andrew McCollum,
+Dustin Moskovitz and Chris Hughes
 Platforms:
-Versions:
+Versions: 17.0
 Price: $0
 Review scores:
 Forum: ?
 Link: https://www.facebook.com/
 
 Name: Snapchat
-Devs:
+Devs: Evan Spiegel, Reggie Brown, Bobby Murphy, Daniel Smith
+and David Kravitz
 Platforms:
-Versions:
+Versions: 7.1.0
 Price: $0
 Review scores:
 Forum: ?
 Link: https://www.snapchat.com/
 
 
-Name: WordsWithFriends
-Devs:
-Platforms:
-Versions:
+Name: Words With Friends
+Devs: Zynga
+Platforms: Android, iOS (iPad, iPhone, iPod Touch), Facebook, 
+Kindle Fire, Nook Tablet, Windows Phone
+Versions: 7.0
 Price: $0
 Review scores:
 Forum: ?
