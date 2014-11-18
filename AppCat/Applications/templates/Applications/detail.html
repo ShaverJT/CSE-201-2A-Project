@@ -1,0 +1,7 @@
+<h1>{{ app.app_name }}</h1>
+<ul>
+{% for review in app.review_set.all %}
+    <li>{{ review.review_name }}</li>
+{% endfor %}
+</ul>
+
