@@ -1,16 +1,31 @@
-{% if latest_app_list %}
-    
-<table>
-	<thead></thead>
-		<tbody>
-			<tr>
-			  {% for app in latest_app_list %}
-				<td><a href="/Applications/{{ app.id }}/">{{ app.app_name }}</a></td>
-			  {% endfor %}
-			</tr>
-		</tbody>
-  
-</table>
+{% for app in latest_app_list %}
+<!DOCTYPE html>
+	<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="Style201.css"/>	
+
+    <title>APPCAT v1.0 demo</title>
+ 
+	</head>
+	
+	<body>
+	
+	{% if latest_app_list %}
+		<table class = "center"; border = "10px solid">
+			<thead></thead>
+				<tbody>
+			
+					<tr>
+			  
+						<td><a href="/Applications/{{ app.id }}/">{{ app.app_name }}</a></td>
+			  
+					</tr>
+			
+				</tbody>
+	 
+		</table>
 {% else %}
     <p>No Apps are available.</p>
 {% endif %}
+	</body>
+{% endfor %}
