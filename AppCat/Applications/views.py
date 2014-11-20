@@ -4,7 +4,7 @@ from django.http import HttpResponse, Http404
 from Applications.models import App
 
 def index(request):
-    latest_app_list = App.objects.order_by('-pub_date')[:5]
+    latest_app_list = App.objects.order_by('-pub_date')[:100]
     context = {'latest_app_list': latest_app_list}
     return render(request, 'Applications/index.html', context)
 

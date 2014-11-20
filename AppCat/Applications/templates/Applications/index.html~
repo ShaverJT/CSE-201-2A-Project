@@ -1,9 +1,45 @@
-{% if latest_app_list %}
-    <ul>
-    {% for app in latest_app_list %}
-        <li><a href="/App/{{ app.id }}/">{{ app.app_name }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
+
+<!DOCTYPE html>
+	<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="Style201.css"/>	
+    
+    <title>APPCAT v2.0 demo</title>
+ 
+	</head>
+	
+	<body bgcolor="red">
+	<style>
+	a {font-family:Georgia; font-size:20px;text-decoration:none;}
+	</style>
+		<h1 style="background-color:orange ;color:blue; text-align:center">APPCAT v2.0</h1>
+	{% for app in latest_app_list %}
+	
+		<table>
+				<thead>
+			
+					
+				
+				</thead>
+				
+					
+					
+				<tbody>
+					
+					
+					{% if latest_app_list %}
+					<tr>
+					
+						<td ><a href="/Applications/{{ app.id }}/" >{{ app.app_name }}</a></td>
+					</tr>
+			
+				</tbody>
+	 
+		</table>
+	{% else %}
     <p>No Apps are available.</p>
-{% endif %}
+	{% endif %}
+	{% endfor %}
+	</body>
+
+	</html>
