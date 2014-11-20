@@ -11,7 +11,7 @@ class App(models.Model):
     link = models.URLField()
     pic = models.FileField(upload_to='images/App_pic',default='images/App_pic/no_icon.png')
     rating = models.DecimalField(max_digits=3,decimal_places=2)
-    def ___str__(self):
+    def __str__(self):
         return self.app_name
     def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
@@ -21,5 +21,5 @@ class Review(models.Model):
     review_name = models.CharField(max_length = 100)
     description = models.TextField(default = '')
     rating =  models.DecimalField(max_digits=1,decimal_places=0)
-    def ___str__(self):
+    def __str__(self):
         return self.review_name
