@@ -17,6 +17,9 @@ def home(request):
 def about(request):
     return render(request, 'Applications/about_ext.html', {'logged_in': request.user.is_authenticated()})
 
+def faq(request):
+    return render(request, 'Applications/FAQ.html', {'logged_in': request.user.is_authenticated()})
+
 def login_user(request):
 	error = 'Please log in below...'
 	username = ''
