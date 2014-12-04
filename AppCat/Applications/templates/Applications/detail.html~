@@ -1,9 +1,0 @@
-<h1>{{ app.app_name }}</h1>
-<h2>{{ app.developers }}</h2>
-<ul1>{{ app.description }}</ul1>
-<ul2>
-{% for review in app.review_set.all %}
-    <li>{{ review.review_name }}</li>
-{% endfor %}
-</ul2>
-
