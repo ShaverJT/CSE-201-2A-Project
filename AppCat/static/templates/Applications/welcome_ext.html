@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}Apps{% endblock %}
+
+
+{% block content %}
+ <div class="container">
+
+        <!-- Jumbotron Header -->
+        <header class="jumbotron hero-spacer">
+            <h1>Welcome to AppCat!</h1>
+            <p>Find all your apps for whatever device you have .</p>
+            <p><a href="http://127.0.0.1:8000/Applications/" class="btn btn-primary btn-large">Check Out the Catalog</a>
+            </p>
+            <!--<img src="http://i.imgur.com/E2Mwfu5.png"/>-->
+        </header>
+
+        <hr>
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Latest Apps</h3>
+            </div>
+        </div>
+        <!-- /.row -->
+        
+        
+        
+        <div class="row text-center">
+{% for app in latest_app_list %}
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail" style="overflow: scroll">
+                    <img src= {{app.pic}} alt="">
+                    <div class="caption">
+                        <h3>{{app.app_name}}</h3>
+                        <p>
+                            <a href="http://127.0.0.1:8000/Applications/{{app.id}}/" class="btn btn-primary">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>   
+{% endfor %}
+        </div> 
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Add an App{% endblock %}
+
+
+{% block content %}
+ <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Add an App
+                    <!--<small>{{query}}</small>-->
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+        
+        <div class="row">
+            <div class="col-lg-8">
+                <form method="post" class="vertical" role="form">
+                    {% csrf_token %}
+                    <table class="table">
+                    {{form}}
+                    </table>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+{% endblock %}
